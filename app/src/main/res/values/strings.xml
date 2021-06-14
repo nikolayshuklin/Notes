@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="note1">Заметка1</string>
+    <string name="note2">Заметка2</string>
+    <string name="note3">Заметка3</string>
+    <string name="description1">Описание1</string>
+    <string name="description2">Описание2</string>
+    <string name="description3">Описание3</string>
+    <string name="date1">01-01-2021</string>
+    <string name="date2">02-01-2021</string>
+    <string name="date3">03-01-2021</string>
+</resources>
