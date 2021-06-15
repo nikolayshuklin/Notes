@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<?xml version="1.0" encoding="utf-8"?><!-- это макет для портретной ориентации -->
+<!-- в портретной ориентации у activity только один фрагмент -->
+<androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:name="ru.geekbrains.notes.ui.list.NoteListFragment"
-    android:id="@+id/note_list_fragment"
+    android:id="@+id/main_note_fragment"
+    android:name="ru.geekbrains.notes.domain.NoteList"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.MainActivity"
 
+    />
 
-
-</fragment>
